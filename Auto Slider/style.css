@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: bisque;
+    padding: 1px;
+}
+.image-box{
+    height: 70vh;
+    width: 60%;
+    margin: 5rem auto 1rem;
+    box-shadow: 0px 0px 3px gray;
+    position: relative;
+    overflow: hidden;
+}
+.image-box:hover{
+    background-color: grey;
+    color: black;
+}
+.image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+    position: absolute;
+}
+.select-op{
+    height: 2rem;
+    width: 6rem;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 15px;
+    /* margin: auto; */
+    left: 44%;
+    z-index: 5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.round-btn{
+    height: 0.6rem;
+    width: 0.6rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(193, 193, 193);
+}
+.round-btn:hover{
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(255, 115, 0);
+}
+
+.btns{
+    height: 3.1rem;
+    width: 100%;
+    /* border: 2px solid rgb(199, 22, 3); */
+    /* text-align: center; */
+    /* z-index: 5; */
+    margin-top: 24%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns button{
+    font-size: 1.2rem;
+    width: 2.4rem;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    color: rgb(158, 158, 158);
+}
+
+
+.btns button:hover{
+    cursor: pointer;
+    background-color: rgb(225, 225, 225, 0.4);
+    color: black;
+}
+
