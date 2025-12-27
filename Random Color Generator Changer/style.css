@@ -1,0 +1,36 @@
+body{
+    background-color: #fff;
+    text-align: center;
+    transition: 1s;
+}
+h1{
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 80px;
+    width: 350px;
+    background-color: #ECFFF8;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+#display{
+    font-size: 15px;
+}
+#btn{
+    background-color: black;
+    color: #ECFFF8;
+    height: 30px;
+    width: 340px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#btn:hover{
+    cursor: pointer;
+}
