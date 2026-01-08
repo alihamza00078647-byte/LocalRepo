@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="display">
+                <p class="screen"></p>
+            </div>
+            <div class="body-cal">
+                <div class="zero-row">
+                    <button class="first-btns clear">C</button>
+                    <button class="first-btns backspace">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                    <button class="first-btns divide operator" value="/">/</button>
+                    <button class="first-btns square operator" value="**">**</button>
+                </div>
+
+                <div class="first-row">
+                    <button class="first-btns nums" value="1">1</button>
+                    <button class="first-btns nums" value="2">2</button>
+                    <button class="first-btns nums" value="3">3</button>
+                    <button class="first-btns multiple operator" value="*">x</button>
+                </div>
+                <div class="second-row">
+                    <button class="first-btns nums" value="4">4</button>
+                    <button class="first-btns nums" value="5">5</button>
+                    <button class="first-btns nums" value="6">6</button>
+                    <button class="first-btns minus operator" value="-">-</button>
+                </div>
+                <div class="third-row">
+                    <button class="first-btns nums" value="7">7</button>
+                    <button class="first-btns nums" value="8">8</button>
+                    <button class="first-btns nums" value="9">9</button>
+                    <button class="first-btns add operator" value="+">+</button>
+                </div>
+                <div class="forth-row">
+                    <button class="first-btns dot" value=".">.</button>
+                    <button class="first-btns nums" value="0">0</button>
+                    <button class="first-btns"></button>
+                    <button class="first-btns equal" value="=">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

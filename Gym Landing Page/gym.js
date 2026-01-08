@@ -20,7 +20,7 @@ function offerTime() {
     
     const sec = Math.floor((offer % 60));
     // console.log(sec);
-    if (days < 0 && hours < 0 && mins < 0 && sec < 0){
+    if (offer <= 0){
         days = 0;   
         hours = 0;   
         mins = 0;   
