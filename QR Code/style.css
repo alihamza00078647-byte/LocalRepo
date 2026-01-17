@@ -1,0 +1,78 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 400px;
+    padding: 25px 45px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.container p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container input{
+    height: 2.5rem;
+    width: 18rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 2px solid lightgrey;
+}
+.container input:focus{
+    border-radius: 8px;
+    transition: 1s;
+    outline: none;
+    border: 1.5px solid blue;
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.showQR{
+    max-height: 200px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    transition: 2s;
+    border-radius: 2px;
+} 
+
+.container button{
+    height: 2rem;
+    width: 18rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: blue;
+    color: white;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 193);
+    transition: 1s;
+    transform: translateY(-5%);
+    box-shadow: 0 5px 8px grey;
+}
