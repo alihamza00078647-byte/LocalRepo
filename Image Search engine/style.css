@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container h1{
+    color: #ffff;
+}
+.search-box{
+    height: 4rem;
+    width: 35rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    display: flex;
+    position: absolute;
+    top: 2.5rem;
+}
+.search-items{
+    padding: 1rem;
+    height: 100%;
+    width: 80%;
+    border-radius: 0.2rem;
+    border: none;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.search-items:focus{
+    border: none;
+    outline: none;
+}
+
+.btn{
+    height: 100%;
+    width: 20%;
+    border-radius: 0.2rem;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #FAF4D3;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #F6BE9A;
+}
+
+.item-box{
+    width: 75rem;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 8rem;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem; /* optional (better spacing) */
+
+}
+.item-box img{
+    height: 30rem;
+    width: 36rem;
+    margin-top: 1rem;
+    object-fit: cover;
+}
